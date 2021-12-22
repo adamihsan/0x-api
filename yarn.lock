@@ -57,9 +57,9 @@
     lodash "^4.17.11"
     valid-url "^1.0.9"
 
-"@0x/asset-swapper@^16.42.0":
+"@0x/asset-swapper@0xProject/gitpkg-registry#0x-asset-swapper-v16.42.0-9171f1585":
   version "16.42.0"
-  resolved "https://registry.yarnpkg.com/@0x/asset-swapper/-/asset-swapper-16.42.0.tgz#879986c5ddc3da0b18d711c6fab16b52daeba79e"
+  resolved "https://codeload.github.com/0xProject/gitpkg-registry/tar.gz/489fc58b8c31e313a23ebaa539866f57aaa84f85"
   dependencies:
     "@0x/assert" "^3.0.29"
     "@0x/base-contract" "^6.4.2"
@@ -69,7 +69,7 @@
     "@0x/contracts-zero-ex" "^0.30.0"
     "@0x/dev-utils" "^4.2.9"
     "@0x/json-schemas" "^6.3.0"
-    "@0x/neon-router" "^0.2.1"
+    "@0x/neon-router" "^0.3.0"
     "@0x/protocol-utils" "^1.10.0"
     "@0x/quote-server" "^6.0.6"
     "@0x/types" "^3.3.4"
@@ -569,9 +569,10 @@
   optionalDependencies:
     "@ledgerhq/hw-transport-node-hid" "^4.3.0"
 
-"@0x/neon-router@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@0x/neon-router/-/neon-router-0.2.1.tgz#23bb3cedc0eafd55a8ba6b6ea8a59ee4c538064b"
+"@0x/neon-router@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@0x/neon-router/-/neon-router-0.3.0.tgz#27ad74f25c3df986a5b325a5664bae9f84258fd2"
+  integrity sha512-NTzeazVwo76xUgqZAGfFr8Dt7Q8qvL+tBsYHS9+Ajtcb/bN0rxlgbn4h/3cMFJqxA9lTHWfwfpXURvGPtbedsQ==
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.5"
 
